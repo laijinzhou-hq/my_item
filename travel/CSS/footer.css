@@ -1,0 +1,122 @@
+*{margin:0;padding:0}
+.my_font{
+    color:#666 !important;
+    font:12px "Microsoft yahei";
+}
+.my_footer{
+    width:1180px;
+    height:150px;
+    color:#666;
+    padding:28px 0 30px 0;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_item_advantage{
+    width:245px;
+    height:150px;
+    margin-left:-1px;
+    position: relative;
+}
+.footer_item_advantage>.dt{
+    width:245px;
+    height:20px;
+    font-size:16px;
+    margin:-3px 0 10px 0;
+}
+.footer_item_advantage>.block-link{
+    display: block;
+    width:235px;
+    height:100px;
+    position: absolute;
+    top:20px;
+    right:10px;
+    bottom:30px;
+    text-decoration: none;
+}
+.footer_item_advantage>.block-link>.advan-item{
+    width: 245px;
+    height:39px;
+    margin-bottom: 15px;
+}
+.footer_item_advantage>.block-link>.advan-item>.advan-img{
+    width:36px;
+    height:40px;
+    background: url("../img/pic_partner.png") no-repeat;
+    background-position:-41px -246px;
+    overflow: hidden;
+    float: left;
+}
+.footer_item_advantage>.block-link>.advan-item>.advan-text{
+    width:190px;
+    height:39px;
+    margin-left: 45px;
+}
+.footer_item_advantage>.block-link>.advan-item>.advan-text>.advan-title{
+    color:#2577e3;
+    font:bold 16px "Microsoft Yahei";
+}
+.footer_item_advantage>.block-link>.advan-item>.advan-img2{
+    width:36px;
+    height:40px;
+    background: url("../img/pic_partner.png") no-repeat;
+    background-position:-41px -200px;
+    overflow: hidden;
+    float: left;
+}
+.footer-item-travel_info{
+    width:261px;
+    height:150px;
+    border-left:1px solid #dedede;
+    padding:0 10px 0 15px;
+    margin-left: -1px;
+    float:left;
+}
+.footer-item-travel_info>.dt{
+    width:155px;
+    height:20px;
+    margin:-3px 0 10px 0;
+    position: relative;
+    font:16px "Microsoft yahei";
+}
+.footer-item-travel_info>.ft{
+    list-style: none;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    
+}
+.footer-item-travel_info>.ft>li{
+    width:100px;
+    margin:2px 0;
+}
+.footer-item-travel_info>.ft>li>a{
+    display: block;
+    width:96px;
+    text-decoration: none;
+}
+.footer-item-travel_info>.dt_wx{
+    width:130px;
+    height:20px;
+    text-align: center;
+    font-size: 12px;
+    margin:-3px 0 1px 0;
+}
+.ft-link-item{
+    width:132px;
+    height:155px;
+    box-sizing: border-box;
+    border:1px solid #efefef;
+    margin:6px 0;
+    padding:8px;
+}
+.ft-link-item>img{
+    width:112px;
+    height:112px;
+}
+.ft-link-item>p{
+    width:114px;
+    height:15px;
+    text-align: center;
+    margin-top:10px;
+}

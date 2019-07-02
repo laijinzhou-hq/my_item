@@ -1,0 +1,14 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS music;
+CREATE DATABASE music CHARSET=UTF8;
+USE music;
+CREATE TABLE music_user(
+uid SMALLINT PRIMARY KEY AUTO_INCREMENT,
+uname VARCHAR(32),
+upwd VARCHAR(32),
+email VARCHAR(64),
+phone VARCHAR(16),
+user_name VARCHAR(32),
+gender int
+);
+INSERT INTO music_user VALUES(1,"测试1","abc132","12312@qq.com",321654321,"张三",1);
