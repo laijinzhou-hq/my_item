@@ -211,22 +211,22 @@
     <div class="mod mod-search">
         <div id="searchBox" class="searchbox">
             <ul id="searchBoxUl" class="s_tab">
-                <li><a href="#">酒店</a></li>
-                <li><a href="#">机票</a></li>
-                <li><a href="#">旅游</a></li>
-                <li><a href="#">跟团游</a></li>
-                <li><a href="#">自由行</a></li>
-                <li><a href="#">火车</a></li>
-                <li><a href="#">用车</a></li>
+                <li><a href="javascript:;">酒店</a></li>
+                <li><a href="javascript:;">旅游</a></li>
+                <li><a href="javascript:;">酒店</a></li>
+                <li><a href="javascript:;">跟团游</a></li>
+                <li><a href="javascript:;">自由行</a></li>
+                <li><a href="javascript:;">火车</a></li>
+                <li><a href="javascript:;">用车</a></li>
             </ul>
             <!-- 酒店搜索开始 -->
             <div styletag="hotel" class="s_content">
                 <p id="hotelSwitch" class="s_subtab_a">
-                    <a href="#" class="current">国内酒店</a>
-                    <a href="#">海外酒店</a>
-                    <a href="#">酒店团购</a>
-                    <a href="#">酒店+景点</a>
-                    <a href="#">会议.团房.长住</a>
+                    <a href="javascript:;" class="current">国内酒店</a>
+                    <a href="javascript:;">海外酒店</a>
+                    <a href="javascript:;">酒店团购</a>
+                    <a href="javascript:;">酒店+景点</a>
+                    <a href="javascript:;">会议.团房.长住</a>
                 </p>
                 <form>
                     <div class="s_item_cont">
@@ -243,7 +243,7 @@
                         </div>
                         <div class="s_item2">
                             退房日期
-                            <input type="text" calss="w170" value="2019-7-7" name="checkOut" id="HD_CheckOut">
+                            <input type="text" class="w170" value="2019-7-7" name="checkOut" id="HD_CheckOut">
                         </div>
                     </div>
                     <div class="s_item_cont my_font">
@@ -264,7 +264,69 @@
                         </div>
                         <div class="s_item2">
                             住客数
-                            <input type="text">
+                            <div id="J_RoomGuestInfoDiv" class="n_gst38578 J_cildNumBox n_gst38578_active">
+                                <input type="text" value="1成人" class="w170" id="J_RoomGuestInfoTxt">
+                                <i class="n_gst38578_tri"></i>
+                                <div id="J_cildNumSelectorBox" style class="hidden">
+                                    <div class="n_gst38578_p">
+                                        <!-- 快捷选项 -->
+                                        <ul class="n_gst38578_list">
+                                            <li class="n_gst38578_list_opt">
+                                                成人
+                                                <span class="n_gst38578_list_opt">18岁及以上</span>
+                                                <span id="J_AdultCount" class="number_control">
+                                                    <span class="number_reduce number_disable">
+                                                        <i class="icon_numreduce"></i>
+                                                    </span>
+                                                    <span class="number_plus">
+                                                        <i clas="icon_numplus"></i>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="n_gst38578_list_opt">
+                                                儿童
+                                                <span class="n_gst38578_age">0-17岁</span>
+                                                <span id="J_intelHotelChildPolicyTip" class="s_voyage_tip"></span>
+                                                <span id="J_ChildCount" class="number_control">
+                                                    <span class="number_reduce number_disable">
+                                                        <i class="icon_numreduce"></i>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                        <div class="n_gst38578_childs">
+                                            <dl class="n_gst38578_childs_dl">
+                                                <dt>儿童年龄(<span clas="J_today">2019年7月16日</span>当天)</dt>
+                                                <dd>
+                                                    <select class="J_childageVal" id="J_childageVal0" style="display: none;">
+                                                        <option value="0">1岁</option>
+                                                        <option value="1">2岁</option>
+                                                        <option value="2">3岁</option>
+                                                        <option value="3">4岁</option>
+                                                        <option value="4">5岁</option>
+                                                        <option value="5">6岁</option>
+                                                        <option value="6">7岁</option>
+                                                        <option value="7">8岁</option>
+                                                        <option value="8">9岁</option>
+                                                        <option value="9">10岁</option>
+                                                        <option value="10">11岁</option>
+                                                        <option value="11">12岁</option>
+                                                        <option value="12">13岁</option>
+                                                        <option value="13">14岁</option>
+                                                        <option value="14">15岁</option>
+                                                        <option value="15">16岁</option>
+                                                        <option value="16">17岁</option>
+                                                    </select>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div>
+                                            <a href=""></a>
+                                            <a href=""></a>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="s_item_cont my_font">
@@ -278,6 +340,13 @@
                                 <option value="2">二星级以下/经济</option>
                             </select>
                         </div>
+                        <div class="s_item2" id="hotelAddressDiv">
+                            关键词
+                            <input type="text" placeholder="(选填)酒店名/地标/商圈" class="w170">
+                        </div>
+                    </div>
+                    <div class="s_button_area">
+                        <button type="text" class="s_btn" title="搜索" id="HD_Btn">搜索</button>
                     </div>
                 </form>
             </div>
