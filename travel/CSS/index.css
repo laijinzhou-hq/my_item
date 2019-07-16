@@ -445,6 +445,7 @@
     width:145px;
     height:28px;
     margin: 0 0 0 8px;
+<<<<<<< HEAD
 }
 .n_gst38578{
     width:170px;
@@ -516,4 +517,6 @@
     box-shadow: 0 1px 0 rgba(95, 50, 0, 0.7);
     border-radius: 3px;
     overflow: visible;
+=======
+>>>>>>> d7bf833644617ad17494f9ecd15e3ddb88846676
 }
